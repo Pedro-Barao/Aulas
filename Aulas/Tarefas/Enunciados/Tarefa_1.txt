@@ -1,0 +1,129 @@
+Opa Júlia, beleza? Seguem os exercícios pra ti.
+
+Linguagem C:
+
+1) Faça um código onde uma variável Float é somada a uma variável Int, imprimindo o resultado em um Float
+
+*ESTRUTURAS NECESSÁRIAS*:
+
+Biblioteca: stdio.h
+
+Função: main
+
+Variáveis:
+= Uma variável int
+= Duas variáveis float
+
+Resultado: Imprimir ele na tela
+
+
+2)  Faça um código onde uma variável Float é somada a outra variável Float, imprimindo o resultado em um Double
+
+*ESTRUTURAS NECESSÁRIAS*:
+
+Biblioteca: stdio.h
+
+Função: main
+
+Variáveis:
+= Uma variável double
+= Duas variáveis float
+
+Resultado: Imprimir ele na tela
+
+
+3) Faça um código onde uma variável Char é somada a outra variável Char, imprimindo o resultado em uma String
+
+*ESTRUTURAS NECESSÁRIAS*:
+
+Biblioteca: stdio.h
+
+Função: main
+
+Variáveis:
+= Uma variável String
+= Duas variáveis chat
+
+Resultado: Imprimir ele na tela
+
+
+*DESAFIO*:
+
+Um usuário quer a sua ajuda com uma expressão matemática, mas ele diz que a expressão é grande demais para fazer, então ele solcitou sua ajuda para resolver a equação para ele:
+
+{122 - [ ( 11 ² + 10 ) + ( 25 / 5 ) ] * 10}
+
+Dica: use os sinais "( )", "[ ]" e "{ }", cada um representando a resposta de cada variável
+
+
+
+
+
+
+
+
+
+Banco de Dados:
+
+1) Diga quais abaixo são dados, quais são informações, se puder gere um conhecimento sobre cada informação e aponte quantos dados cada um possuí:
+
+1.1) Wella | Shampoo
+Contexto: Marcas de Produto de Cabelo
+
+R:
+
+
+1.2) 100 | GB | CS:GO
+Contexto: Jogos de FPS (permitida ajuda do Pietro)
+
+R:
+
+
+1.3) My Little Ponny | 20 | episódios | top 1
+Contexto: Séries da Infância
+
+R:
+
+
+1.4) RTX Placa de vídeo 12 Vram R$ 4500
+Contexto: Qualidade de Placa de Vídeo
+
+R:
+
+
+1.5) Foguete 200 Km 5 minutos
+Contexto: Nasa Lançando um Foguete na Lua
+
+R:
+
+
+
+*DESAFIO*:
+
+Um hospital solicitando sua ajuda com a estruturação de um banco de dados, eles precisam que você dimensione como ele será em seu estágio final, mas antes modelando sua base, leve em consideração os seguintes dados:
+
+
+- Pacientes
+= Id
+= Nome Completo
+= CPF
+= Telefone
+= Email
+= Data de Cadastro
+
+- Médicos
+= CRM (Id)
+= Nome
+= Sobrenome
+= Especialização
+
+- Consulta
+= Id
+= Id (Cliente)
+= CRM (Médico)
+= Data Consulta
+= Status (Respostas possível: Saudável, Não Saudável ou Não Feita Ainda)
+
+
+Para a resolução desta atividade faça um modelo no BRMW:
+ https://app.brmodeloweb.com/main

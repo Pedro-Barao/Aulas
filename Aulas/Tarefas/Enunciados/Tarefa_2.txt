@@ -1,0 +1,72 @@
+Opa Júlia, beleza? Seguem os exercícios pra ti.
+
+Linguagem C:
+
+1) Peça para o usuário preencher os valores (scanf) de 2 variaveis Inteiras e aplique nas equações abaixo
+
+1.a) 200 + (x * 7) - y
+1.b) 390 * x - (y² + 2)
+1.c) x / y * 400 + (37 / 4)
+
+
+Resultado: Imprimir os resultados de cada conta na tela
+
+
+2)  Faça um código onde ele mostra o resultado das seguintes equações
+
+2.a) 300 - 77 + x / (4 * y - z) * 2
+2.b) 700 / y + (84 - z² * x) + 805
+2.c) 94³ + [ 648 - z * (\|x * 376 - y)]
+
+\| = raiz quadrada
+
+Resultado: Imprimir os resultados na tela
+
+
+*DESAFIO*:
+
+Um usuário quer a sua ajuda com uma expressão matemática, ele quer saber se a expressão tem so 2 lados com resultados iguais ou não, para isso use condicionais e imprima true se forem iguais e false se forem diferentes
+
+2 * (12 / 3) - 6,5 = 8 - (2 * 4) + 16 / 10
+
+Dica: use condicionais e 2 variáveis, uma para cada lado da expressão
+
+
+
+
+Uma biblioteca está solicitando sua ajuda com a estruturação de um banco de dados, eles precisam que você dimensione como ele será em seu estágio final, mas antes modelando sua base, leve em consideração os seguintes dados:
+
+
+- Cliente
+= Id Cliente
+= Nome Completo
+= CPF
+= Telefone
+= Endereço
+= Idade
+
+- Livros
+= ISBN (Id)
+= Título
+= Id do Autor
+= Data de Lançamento
+= Id da Categoria
+
+- Categora
+= Id Categoria
+= Nome Categoria
+
+- Autor
+= Id Autor
+= Sobrenome Autor
+= Nome Autor
+= Data de Nascimento
+= Data de Óbito
+
+- Autor Livro
+= Id
+= Id Autor
+= Id Livro
+
+
+*ATENÇÃO*: Existe um atributo de uma das tabelas que pode gerar problemas futuros ao nosso banco, após montar o modelo conceitual identifique o atributo e corrija-o
