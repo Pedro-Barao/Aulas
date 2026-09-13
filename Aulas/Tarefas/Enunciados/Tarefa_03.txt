@@ -1,0 +1,110 @@
+Opa Júlia, beleza? Seguem as 2 listas de exercícios de revisão
+
+Estrutura de Dados:
+
+Tópicos: scanf, printf, Variáveis e Condicionais (if / else)
+1) Cálculo de Desconto de Produto (scanf, printf e Variáveis)
+Uma loja precisa calcular o valor total de uma compra com desconto aplicado. Faça um código em C que peça para o usuário digitar o preço unitário de um produto (Float) e a quantidade comprada (Int). Em seguida, aplique um desconto fixo de R$ 15.00 no valor total final.
+ESTRUTURAS NECESSÁRIAS:
+ * Biblioteca: stdio.h
+ * Função: main
+ * Variáveis:
+   * Uma variável int (quantidade)
+   * Duas variáveis float (preço unitário e valor final)
+ * Entrada: Usar scanf para ler os dois valores
+ * Resultado: Imprimir o valor total com desconto na tela formatado com 2 casas decimais.
+2) Validação de Média e Frequência escolar (Condicionais Simples)
+Faça um programa para uma escola que receba a nota final de um aluno (Float) e a sua porcentagem de frequência de 0 a 100 (Int).
+ * Se a nota for maior ou igual a 7.0 E a frequência for maior ou igual a 75%, imprima na tela: "Aluno Aprovado!".
+ * Caso contrário, imprima: "Aluno Reprovado!".
+ESTRUTURAS NECESSÁRIAS:
+ * Biblioteca: stdio.h
+ * Função: main
+ * Variáveis:
+   * Uma variável float (nota)
+   * Uma variável int (frequência)
+ * Condicional: Estrutura if / else utilizando operador lógico &&
+ * Resultado: Imprimir a mensagem de status correspondente.
+3) Classificação de Temperatura (Condicionais Aninhadas / else if)
+Escreva um código que receba do usuário a temperatura atual em graus Celsius (Float) e classifique o clima conforme a tabela abaixo:
+ * Temperatura menor que 15.0: "Clima Frio"
+ * Temperatura entre 15.0 e 25.0: "Clima Agradavel"
+ * Temperatura maior que 25.0: "Clima Quente"
+ESTRUTURAS NECESSÁRIAS:
+ * Biblioteca: stdio.h
+ * Função: main
+ * Variáveis: Uma variável float
+ * Condicional: Estrutura if, else if e else
+ * Resultado: Imprimir a classificação do clima correspondente.
+⚡ DESAFIO (C): Sistema de Tarifação de Estacionamento
+Um shopping contratou você para criar o módulo de cobrança do estacionamento. O sistema deve solicitar via scanf:
+ * As horas permanecidas no estacionamento (int).
+ * O tipo de veículo: digitando 1 para Carro ou 2 para Moto (int).
+Regras de Negócio:
+ * Moto (1): Custa R$ 5,00 por hora. Se permanecer por mais de 4 horas, ganha um desconto fixo de R$ 3,00 no total final.
+ * Carro (2): Custa R$ 10,00 por hora. Se permanecer por mais de 4 horas, ganha um desconto fixo de R$ 5,00 no total final.
+Requisito do Desafio:
+Armazene o valor total em uma variável float e utilize condicionais (if / else) para verificar o tipo do veículo e se o desconto deve ser aplicado. Imprima o valor total final a pagar.
+
+
+
+Banco de Dados:
+
+Tópicos: Dado, Informação e Conhecimento | Modelo Conceitual e Modelo Lógico
+1) Análise de Dado, Informação e Conhecimento
+Diga quais itens abaixo são dados, quais são informações, gere um conhecimento sobre cada informação e aponte quantos dados cada item possui:
+1.1) Coca-Cola | 2 Litros | R$ 9,50
+ * Contexto: Estoque de Supermercado
+ * R:
+1.2) Maria | 8.5 | Aprovada | Estrutura de Dados
+ * Contexto: Boletim Escolar Universitário
+ * R:
+1.3) ABC-1234 | 88 km/h | Radar A1 | Multado
+ * Contexto: Fiscalização de Trânsito
+ * R:
+1.4) iPhone 15 | 128 GB | R$ 4800 | Em Estoque
+ * Contexto: Vendas de Loja de Eletrônicos
+ * R:
+1.5) Dr. Silva | Pediatria | Sala 302 | 14:00
+ * Contexto: Agenda de Consultório Médico
+ * R:
+2) Transição entre Modelo Conceitual e Modelo Lógico
+Responda de forma sucinta às perguntas abaixo sobre modelagem de banco de dados:
+ * 2.a) Qual é a principal diferença entre o Modelo Conceitual (Diagrama ER) e o Modelo Lógico (Modelo Relacional)?
+ * 2.b) No Modelo Conceitual representamos Entidades e Atributos. Como esses dois conceitos são convertidos quando passamos para o Modelo Lógico?
+ * 2.c) O que é uma Chave Primária (PK) e uma Chave Estrangeira (FK) dentro do Modelo Lógico e qual a função de cada uma?
+⚡ DESAFIO (BD): Modelagem de Sistema para Locadora de Veículos
+Uma empresa de aluguel de carros solicitou a estruturação do seu banco de dados. Eles precisam que você crie a estrutura inicial cobrindo o Modelo Conceitual e o Modelo Lógico.
+Considere as seguintes informações da regra de negócio:
+ * Cliente:
+   * Id Cliente
+   * Nome Completo
+   * CPF
+   * Telefone
+   * Email
+   * Idade (Atenção a este item!)
+ * Veículos:
+   * Placa (Id)
+   * Marca
+   * Modelo
+   * Ano Fabricação
+   * Valor Diária
+   * Id Categoria
+ * Categoria:
+   * Id Categoria
+   * Nome Categoria (Ex: SUV, Econômico, Luxo)
+ * Locação:
+   * Id Locação
+   * Id Cliente
+   * Placa Veículo
+   * Data Início
+   * Data Fim
+   * Valor Total
+O QUE VOCÊ DEVE FAZER:
+ * Modelo Conceitual: Elabore o diagrama entidade-relacionamento contendo Entidades, Atributos e os Relacionamentos com suas respectivas Cardinalidades (ex: 1:N, N:M).
+ * Modelo Lógico: Converta o modelo em tabelas, identificando claramente as Chaves Primárias (PK) e Chaves Estrangeiras (FK).
+ * ATENÇÃO / DESAFIO TÉCNICO: Existe um atributo na tabela Cliente que pode gerar inconsistências/problemas futuros conforme o tempo passa.
+   * Identifique qual é esse atributo.
+   * Explique o motivo do problema.
+   * Mostre qual é a solução correta para substituí-lo no modelo.
+Ferramenta recomendada para desenhar o modelo: brModelo Web
