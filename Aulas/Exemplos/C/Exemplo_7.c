@@ -11,10 +11,10 @@ int main()
 
             Começo -> Meio -> Fim
 
-            (Começo; Fim; Meio)
+            (Começo; enquanto for; Meio)
                             |
                             V
-                    Como chegar ao fim?
+                    quando chegar ao fim?
 
             1 até 10
 
@@ -40,7 +40,7 @@ int main()
 
     int x_FOR = 0, x_DO_WHILE = 0, x_WHILE = 0; // X tem que contar quantas unidades
 
-    // DE 1 A 100, TODOS OS NÚMEROS PARES DEVEM SER CONTADOS
+    // DE 1 A 100, TODOS OS NÚMEROS PARES DEVEM SER CONTADOS, a condicao é ser divisivel por 2
 
     /*
     
@@ -60,11 +60,11 @@ int main()
 
 
     */
-
+    // contando todos numeros pares ate 100
     for(int i = 0; i < 100; i++)
     {
 
-        if((i + 1) % 2 == 0) // % = Módulo de i + 1 / 2 = 0
+        if((i + 1) % 2 == 0) // % = Módulo de i + 1 / 2 = 0(modulo e quando vc divide e pega so o resto)
         {
 
             x_FOR++;
@@ -121,7 +121,7 @@ int main()
     }
 
     
-
+//printa quantas vezes teve numeros pares de 1 ate 100
     printf("\n%d\n", x_FOR);
     printf("\n%d\n", x_DO_WHILE);
     printf("\n%d\n", x_WHILE);

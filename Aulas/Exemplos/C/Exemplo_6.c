@@ -2,6 +2,8 @@
 
 int main(){
 
+ // exercicio de validacao de expressoes por condicionais
+    
     int variavel = 1;
     int variavel2 = 3;
 
